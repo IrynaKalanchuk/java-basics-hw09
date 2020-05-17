@@ -17,7 +17,7 @@ public class ArrayUtil {
 
         for (String s1 : array1) {
             if (result.contains(s1)) {
-                break;
+                continue;
             }
 
             for (String s2 : array2) {
